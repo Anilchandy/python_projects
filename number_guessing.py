@@ -1,3 +1,12 @@
+
+"""
+Ask the user to input the number and compare it with the randomly generated number.
+
+The number of chances can be pre-defined by user.
+
+At the end of the chances display the result"""
+
+
 from random import randint
 number_chances = int(input("Enter the number of chances needed to play this game :"))
 i=1
