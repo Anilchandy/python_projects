@@ -9,3 +9,4 @@ while i<=number_chances:
         print(f"The number you guessed is correct and the number is {user_input}")
         score+=1
     i+=1
+print(f"The game is over and the result is {score}")
