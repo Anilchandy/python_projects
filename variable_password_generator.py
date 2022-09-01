@@ -1,3 +1,10 @@
+
+"""
+This code will provide a variable length password according to the input we provide.
+The user can decide how many upper case, lower case ,digits and special characters are required.
+"""
+
+
 from random import randint
 Length_of_passwd = int(input("Enter the total lenght of the password :"))
 upper_char_count = int(input("Enter the number of upper case characters required : "))
