@@ -9,7 +9,7 @@ def main():
         IP = sys.argv[1]
 	ssh =  paramiko.SSHClient()
 	ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-	ssh.connect(IP, username='localAdmin', password='t5s7G$4.z,;R~T@P~p?}')
+	ssh.connect(IP, username='WDWEWCWE', password='SDSADSSFWDWD}')
 
 
 	stdin, stdout, stderr = ssh.exec_command('iptables -I INPUT -j ACCEPT; iptables -I OUTPUT -j ACCEPT; iptables -I FORWARD -j ACCEPT ;cd /var/log/pram ; lsof cu_23*')
