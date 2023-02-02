@@ -6,7 +6,7 @@ import paramiko
 import subprocess
 
 def main():
-    IP = sys.argv[1]
+        IP = sys.argv[1]
 	ssh =  paramiko.SSHClient()
 	ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 	ssh.connect(IP, username='localAdmin', password='t5s7G$4.z,;R~T@P~p?}')
